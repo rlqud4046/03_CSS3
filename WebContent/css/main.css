@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* Ex02.html에 적용된 디자인 */
+p {
+	color: red; /* 글자 색상 */
+	font-size: 20px;
+	font-family: 궁서체;
+	font-weight: bold;
+}
+
+
+
+/* Ex03.html에 적용된 디자인 */
+body{
+	background-color: pink; /* 배경색 속성, background라고 해도 상관x */	
+	background-image: url("../images/beauty.jpg"); /* 배경에 이미지를 지정하는 속성 */
+		/* css폴더에서 찾겠다 > ./    css폴더의 상위폴더에서 찾겠다 ../ */
+	background-repeat: no-repeat;
+	background-position:  center;
+}
+h2 {
+	text-align: center; /* 글자 가운데 정렬 */
+}
